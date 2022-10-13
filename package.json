@@ -1,0 +1,38 @@
+{
+  "name": "iss-locator",
+  "version": "1.0.0",
+  "description": "International Space Station locator made using wheretheiss.at API and Express",
+  "main": "app.js",
+  "engines": {
+    "node": "14.x"
+  },
+  "scripts": {
+    "start": "node app.js"
+  },
+  "keywords": [
+    "iss",
+    "api",
+    "express",
+    "geolocation",
+    "hacktoberfest"
+  ],
+  "author": "Fonta22",
+  "contributors": [
+    "Fonta22",
+    "PrachiAgarwal19",
+    "cmjchrisjones"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Fonta22/iss-locator"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "nedb": "^1.8.0"
+  },
+  "devDependencies": {
+    "typescript": "^4.4.4"
+  }
+}
